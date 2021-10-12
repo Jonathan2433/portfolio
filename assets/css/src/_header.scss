@@ -1,0 +1,30 @@
+header#main-header {
+    display: flex;
+    flex-direction: column;
+    div#menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+        nav#main-nav {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            a {
+                background-color: $blue-noir;
+                color: $bg;
+                padding: 10px;
+            }
+        }
+    }
+    section#hero {
+        height: 100vh;
+        background: url("./../../img/src/desktop-g3435092e9_1280.jpg");
+        filter: blur(1.5px);
+        opacity: 70%;
+        h1#hero-title {
+            font-size: 5em;
+            color: red;
+        }
+    }
+}
