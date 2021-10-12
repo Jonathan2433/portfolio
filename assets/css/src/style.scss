@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import 'reset';
+@import 'var';
 @import 'allPages';
-@import 'modal';
 
-body {
-    font-family: var(--typo-txt);
-}
